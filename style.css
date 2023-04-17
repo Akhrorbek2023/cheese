@@ -13,3 +13,184 @@ ul {
 a {
     text-decoration: none;
 }
+.box1 {
+    height: 44px;
+    width: 1680px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: #FFFBED;
+    border: 1px solid #F4F0E6;
+}
+#first {
+    position: absolute;
+left: 16.19%;
+right: 76.25%;
+top: 6.25%;
+bottom: 81.25%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+
+/* Primary/Black */
+
+color: #292929;
+}
+#img1 {
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+height: 22px;
+width: 22px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+}
+#second {
+    position: absolute;
+left: 27.56%;
+right: 65.6%;
+top: 6.25%;
+bottom: 81.25%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+
+/* Primary/Black */
+
+color: #292929;
+}
+#img2 {
+    position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 7.95%;
+bottom: 17.04%;
+height: 16.500598907470703px;
+width: 16.500215530395508px;
+left: 2.75px;
+top: 1.7496929168701172px;
+border-radius: 0px;
+}
+.box1 ul {
+    display:flex;
+    text-align: center;
+}
+.box1 ul :nth-child(1) {
+    width: 79px;
+    height: 22px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    
+    
+    /* Primary/Black */
+    
+    color: #292929;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.box1 ul :nth-child(2){
+    width: 100px;
+    height: 22px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    
+    
+    /* Primary/Black */
+    
+    color: #292929;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.box1 ul :nth-child(3) {
+    width: 128px;
+    height: 22px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    
+    
+    /* Primary/Black */
+    
+    color: #292929;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+#img3 {
+    height: 16.5px;
+    width: 16.5px;
+    left: 2.75px;
+    top: 2.75px;
+    border-radius: 0px;
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;    
+}
+.box1 h4 {
+    width: 107px;
+    height: 22px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    
+    text-align: right;
+    
+    /* Primary/Black */
+    
+    color: #292929;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
