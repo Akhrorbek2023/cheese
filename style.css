@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
     width: 100%;
     max-width: 1140px;
@@ -193,4 +194,28 @@ border-radius: 0px;
     flex: none;
     order: 1;
     flex-grow: 0;
+=======
+.box-2{
+    display: flex;
+    padding: 0px 200px 0px 200px;
+    align-items: center;
+}
+.box-2 .img-1{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.box-2 .img-1 img{
+    height: 25px;
+}
+.box-2 .img-1 h6{
+    color: grey;
+    margin: 3px;
+}
+.box-2 .logos img{
+    margin: 5px;
+}
+.box-2 .call .one{
+    margin-left: 20px;
+>>>>>>> 25366f5647273aed57ab0ee5318a70f51cde24a2
 }
