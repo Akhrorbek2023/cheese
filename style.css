@@ -9,15 +9,37 @@ img {
 }
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 a {
     text-decoration: none;
+    margin: 0;
+    padding: 0
 }
-<<<<<<< HEAD
-
-.section__bottom {
+body {
+    background-color: #FFFBED;
+}
+.bottom__holder {
+    border: 1px solid lightgray;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottom__holder, .bottom__list, .bottom__search{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-=======
->>>>>>> 90d4b9cec64585af66c7b5024e40ba21aeeedc65
+.bottom__link, .bottom__img {
+   margin-right: 10px;
+}
+.bottom__link {
+    color: #000;
+}
+.bottom__img {
+    margin-left: 10px;
+}
+.bottom__search {
+    border-left: 2px solid lightgray;
+}
+
