@@ -1,0 +1,15 @@
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+img {
+    object-fit: cover;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
