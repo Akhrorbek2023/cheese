@@ -6,14 +6,17 @@
     margin: 0 auto;
 }
 img {
-    object-fit: cover;
+    object-fit: contain;
 }
 ul {
     list-style: none;
+  
 }
 a {
     text-decoration: none;
+   
 }
+<<<<<<< HEAD
 .box1 {
     height: 44px;
     width: 1680px;
@@ -194,6 +197,7 @@ border-radius: 0px;
     flex: none;
     order: 1;
     flex-grow: 0;
+}
 =======
 .box-2{
     display: flex;
@@ -219,3 +223,31 @@ border-radius: 0px;
     margin-left: 20px;
 >>>>>>> 25366f5647273aed57ab0ee5318a70f51cde24a2
 }
+=======
+body {
+    background-color: #FFFBED;
+}
+.bottom__holder {
+    border: 1px solid lightgray;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottom__holder, .bottom__list, .bottom__search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom__link, .bottom__img {
+   margin-right: 10px;
+}
+.bottom__link {
+    color: #000;
+}
+.bottom__img {
+    margin-left: 10px;
+}
+.bottom__search {
+    border-left: 2px solid lightgray;
+}
+
+>>>>>>> deadpool
